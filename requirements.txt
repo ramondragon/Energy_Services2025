@@ -1,6 +1,6 @@
 atomicwrites==1.4.0
 inflection==0.5.1
-mkl-service==2.4.0
+mkl-service==2.4.1
 ply==3.11
 praktikum==2.4.0
 pyls-spyder==0.4.0
