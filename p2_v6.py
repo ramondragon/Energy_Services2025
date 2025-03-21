@@ -82,7 +82,7 @@ initial_forecast_fig = px.line(forecast_results, x='Date', y=["Power (kW) [Y]", 
 
 # Initialize app with suppress_callback_exceptions
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, suppress_callback_exceptions=True)
-
+server = app.server
 app.layout = html.Div([
     html.H1("IST Energy Forecast Tool"),
     dcc.Tabs(id='tabs', value='tab-1', children=[
